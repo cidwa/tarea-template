@@ -1,0 +1,181 @@
+    body {
+    background: rgba(230, 230, 230, 0.72);
+}
+
+footer {
+    background: #F8F8F8;
+    color: #777;
+    padding: 15px;
+}
+
+.background {
+    background: #8B959A;
+    background-image: url(../img/foto.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+}
+
+.centro {
+    text-align: center;
+    color: white;
+    font-family: 'Archivo Narrow', sans-serif;
+    text-shadow: 2px 3px 10px black;
+}
+
+.margen {
+    margin-top: 10%;
+}
+
+.aire {
+    margin-top: 5%;
+}
+
+
+/*Titulo responsive*/
+
+@media screen and (max-width:1920px) {
+    .titulo-texto {
+            color: white;
+        font-size: 5em;
+        font-family: 'Archivo Narrow', sans-serif;
+        text-shadow: 2px 3px 10px black;
+        padding-top: 15%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 25%;
+    }
+    
+    }
+
+@media screen and (max-width:1080px) {
+    .titulo-texto {
+           color: white;
+        font-size: 4em;
+        font-family: 'Archivo Narrow', sans-serif;
+        text-shadow: 2px 3px 10px black;
+        padding-top: 15%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 25%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .titulo-texto {
+           color: white;
+        font-size: 3em;
+        font-family: 'Archivo Narrow', sans-serif;
+        text-shadow: 2px 3px 10px black;
+        padding-top: 15%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 25%;
+    }
+}
+    @media screen and (max-width:700px) {
+        .titulo-texto {
+           color: white;
+        font-size: 2.5em;
+        font-family: 'Archivo Narrow', sans-serif;
+        text-shadow: 2px 3px 10px black;
+        padding-top: 15%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 25%;
+    }
+      
+    }
+    @media screen and (max-width:400px) {
+        .titulo-texto {
+           color: white;
+        font-size: 1.2em;
+        font-family: 'Archivo Narrow', sans-serif;
+        text-shadow: 2px 3px 10px black;
+        padding-top: 40%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 40%;
+    }
+       
+    }
+    @media screen and (max-width:200px) {
+       .titulo-texto {
+           color: white;
+        font-size: 5em;
+        font-family: 'Archivo Narrow', sans-serif;
+        text-shadow: 2px 3px 10px black;
+        padding-top: 15%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 25%;
+    }
+        
+    }
+   
+    /*ESTILO PARA EL TYPED*/
+    .typed-cursor {
+        opacity: 1;
+        font-weight: 100;
+        -webkit-animation: blink 0.7s infinite;
+        -moz-animation: blink 0.7s infinite;
+        -ms-animation: blink 0.7s infinite;
+        -o-animation: blink 0.7s infinite;
+        animation: blink 0.7s infinite;
+    }
+    @-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @-webkit-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @-moz-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @-ms-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @-o-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    /*FIN DEL ESTILO PARA EL TYPED*/
